@@ -1,0 +1,61 @@
+.card
+  background-color: $gray-dark
+  border-radius: 10px
+  width: 360px
+  min-height: 482px
+  &__content
+    padding: 0 24px
+  &__img
+    width: 360px
+    height: 194px
+    margin-bottom: 24px
+  &__title
+    color: $white
+    font-size: 24px
+    margin-bottom: 5px
+  &__author
+    @include mainText
+    color: $gray
+    margin-bottom: 16px
+  &__time
+    display: flex
+    align-items: center
+    margin-bottom: 16px
+  &__time-icon
+    margin-right: 8px
+  &__time-text
+    color: $white
+    font-size: 16px
+  &__subinfo
+    display: flex
+    align-items: center
+    margin-bottom: 24px
+  &__mark
+    display: flex
+    align-items: center
+    margin-right: 12px
+    padding: 6px 12px
+    border: 1px solid $gray-stroke
+    border-radius: 17px
+    &-icon
+      margin-right: 5px
+    &-text
+      color: $white
+      font-size: 16px
+  &__direction
+    color: $white
+    font-size: 16px
+    padding: 6px 12px
+    border: 1px solid $gray-stroke
+    border-radius: 17px
+  &__price
+    height: 96px
+    border-radius: 0px 0px 10px 10px
+    padding: 0 24px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background-color: $violet-dark
+    &-text
+      color: $white
+      font-size: 22px

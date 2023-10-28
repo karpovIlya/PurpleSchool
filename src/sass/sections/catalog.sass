@@ -1,0 +1,13 @@
+.catalog
+  background-color: $black
+  padding: 100px 0
+  &__subtitle
+    @include subtitle
+    margin-bottom: 8px
+  &__title
+    @include secondHeader
+    margin-bottom: 40px
+  &__wrapper
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr))
+    row-gap: 70px
