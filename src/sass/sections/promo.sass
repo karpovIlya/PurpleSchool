@@ -1,0 +1,32 @@
+.promo
+  margin-bottom: 100px
+  &__container
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__title
+    color: $white
+    font-size: 54px
+    font-weight: 700
+    margin-bottom: 32px
+  &__gradient
+    background-image: $violet-gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &__choiceBtn
+    margin-right: 32px
+  &__video
+    width: 458px
+    height: 258px
+    border-radius: 10px
+    box-shadow: -16px 12px 35px 0px $violet-dark
+  &__videoWrapp
+    position: relative
+  &__video-info
+    padding: 16px 32px
+    background-color: $gray-dark
+    border-radius: 10px
+    position: absolute
+    bottom: 30px
+    left: 10px
+    @include mainText

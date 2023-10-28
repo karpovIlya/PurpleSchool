@@ -4,9 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PurpleSchool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Urbanist&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <img src="icon/logo.svg" alt="Логотип" class="header__logo-img">
+        <div class="header__logo-text">
+          PurpleSchool
+        </div>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Курсы</a>
+          </li>
   
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">О школе</a>
+          </li>
+  
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Блог</a>
+          </li>
+  
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">База знаний</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="promo">
+    <div class="container promo__container">
+      <div class="promo__info">
+        <h1 class="promo__title">
+          Доступные курсы по <span class="promo__gradient">Разработке и DevOps</span>
+        </h1>
+  
+        <a href="#" class="promo__choiceBtn button"><button class="button__body">Выбрать курс</button></a>
+        <a href="#" class="promo__infoBtn button button_info"><button class="button__body">О школе</button></a>
+      </div>
+  
+      <div class="promo__videoWrapp">
+        <video src="video/promoVideo.mp4" controls class="promo__video"></video>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

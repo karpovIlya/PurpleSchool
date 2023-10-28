@@ -1,0 +1,18 @@
+.button
+  &__body
+    cursor: pointer
+    border: none
+    border-radius: 10px
+    background-color: $violet
+    padding: 16px 32px
+    outline: none
+    transition: .2s all
+    @include mainText
+    &:hover
+      background-color: #472684
+  &_info
+    .button__body
+      background: none
+      border: 1px solid $gray-stroke
+      &:hover
+        background-color: $violet-dark

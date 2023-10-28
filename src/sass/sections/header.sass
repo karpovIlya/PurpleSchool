@@ -1,0 +1,32 @@
+.header
+  margin-bottom: 100px
+  &__container
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__logo
+    display: flex
+    align-items: center
+    &-img
+      margin-right: 20px
+    &-text
+      color: $white
+      font-size: 24px
+      font-weight: 700
+  &__nav
+    &-list
+      display: flex
+      list-style-type: none
+    &-item
+      margin-right: 40px
+      &:last-child
+        margin-right: 0
+    &-link
+      @include mainText
+      text-decoration: none
+      padding: 8px 16px
+
+      &:hover
+        border: 1px solid $gray-stroke
+        border-radius: 8px
+  
