@@ -1,0 +1,51 @@
+.about
+  padding: 100px 0
+  &__subtitle
+    @include subtitle
+    margin-bottom: 8px
+  &__title
+    @include secondHeader
+    margin-bottom: 32px
+  &__text
+    @include mainText
+    max-width: 727px
+    margin-bottom: 48px
+  &__benefits
+    display: flex
+    justify-content: space-between
+    margin-bottom: 70px
+  &__benefit
+    width: 360px
+    background-color: $violet-dark
+    border-radius: 10px
+    padding: 48px 0
+    &-title
+      font-size: 36px
+      text-align: center
+      margin-bottom: 16px
+      background-image: $violet-gradient
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+    &-text
+      font-size: 18px
+      color: $white
+      text-align: center
+  &__rating-title
+    font-size: 36px
+    color: $white
+    margin-bottom: 32px
+  &__marks
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__mark
+    display: flex
+    align-items: center
+    width: 360px
+    padding: 24px 32px
+    background-color: $violet-dark
+    border-radius: 10px
+    &-title
+      font-size: 54px
+      color: $white
+      margin-right: 24px
